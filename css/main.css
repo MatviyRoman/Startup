@@ -1,3 +1,15 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.line {
+	border-top: 2px solid;
+	width: 50px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
 header {
 	background: url(../img/Home.jpg) no-repeat;
 	background-position: center;
@@ -59,8 +71,6 @@ header p.getStarted {
 	padding-top: 5%;
 	font-size: 20px;
 	text-transform: uppercase;
-	border-bottom-width: 2px;
-	border-bottom-style: solid;
 }
 
 .services h3 {
@@ -122,6 +132,74 @@ header p.getStarted {
 	padding-bottom: 7%;
 }
 
+.aboutUs .prev {
+	position: absolute;
+	top: 100px;
+	background: #c0301c;
+	width: 36px;
+	height: 38px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.aboutUs .next {
+	position: absolute;
+	top: 100px;
+	left: 234px;
+	background: #c0301c;
+	width: 36px;
+	height: 38px;
+	cursor: pointer;
+}
+
+.aboutUs .fa-angle-right,
+.aboutUs .fa-angle-left {
+	position: relative;
+	top: 5px;
+	font-size: 25px;
+	color: #fff;
+}
+
+.aboutUs .socialIcon1,
+.aboutUs .socialIcon2,
+.aboutUs .socialIcon3,
+.aboutUs .socialIcon4 {
+	display: none;
+	position: absolute;
+	top: 45%;
+    left: 28%;
+}
+
+.aboutUs a {
+	/* width: 28px;
+	height: 28px; */
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 8px;
+	margin-right: 3px;
+}
+
+/* .aboutUs a,
+.aboutUs a:hover,
+.aboutUs a:link {
+	text-decoration: none;
+} */
+
+.aboutUs a.active {
+	background: #c0301c;
+}
+
+.aboutUs a:hover {
+	background: #c0301c;
+}
+
+.aboutUs .fab {
+	top: 10px;
+	font-size: 15px;
+	color: #fff;
+}
+
 .aboutUs .team1,
 .aboutUs .team2,
 .aboutUs .team3,
@@ -133,10 +211,16 @@ header p.getStarted {
 .aboutUs .team1 img:hover,
 .aboutUs .team2 img:hover,
 .aboutUs .team3 img:hover,
-.aboutUs .team4 img:hover {
+.aboutUs .team4 img:hover,
+.aboutUs .team1 img:focus,
+.aboutUs .team2 img:focus,
+.aboutUs .team3 img:focus,
+.aboutUs .team4 img:focus {
 	background: #aaaaaa !important;
+	opacity: 1;
 	z-index: 1;
-}
+	cursor: pointer;
+} 
 
 .aboutUs .team1 .name,
 .aboutUs .team2 .name,
@@ -157,13 +241,123 @@ header p.getStarted {
 }
 
 .works {
-
+	color: #555555;
+	padding-top: 100px; /* 10%; */
 }
 
 .works h2 {
 	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.works a {
+	padding-bottom: 70px;
+	padding-right: 30px;
 }
 
 .works .settings:not(.work7):not(.work8):not(.work9) {
 	padding-bottom: 30px;
+}
+
+.works .work7,
+.works .work8,
+.works .work9 {
+	padding-bottom: 10%;
+}
+
+.blog {
+	padding-top: 90px;
+}
+
+.clients {
+	background: url(../img/about.jpg);
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.clients i {
+	font-family: 'RobotoSlab';
+	font-size: 13px;
+	padding-top: 70px;
+	padding-bottom: 40px;
+}
+
+.clients .elipse1,
+.clients .elipse2,
+.clients .elipse3 {
+	width: 13px;
+	height: 13px;
+	border-radius: 100%;
+	background: #dddddd;
+}
+
+.clients .elipse1,
+.clients .elipse2 {
+	margin-right: 7px;
+}
+
+.clients .active,
+.clients .elipse1:hover,
+.clients .elipse2:hover,
+.clients .elipse3:hover {
+	background: #c0301c;
+}
+
+.contact {
+	padding-top: 60px;
+
+}
+
+.contact h2 {
+	text-transform: uppercase;
+}
+
+.contact p {
+	margin-bottom: 70px;
+}
+
+.contact .fa {
+	font-size: 25px;
+	margin-right: 15px;
+}
+
+.contact h4.adress {
+	text-transform: uppercase;
+}
+
+.contact p.adress {
+	position: relative;
+	left: 30px;
+}
+
+.contact input[type=text] {
+	border: 10px solid fff;
+	margin-right: 30px;
+	margin-bottom: 22px;
+}
+
+footer {
+	background: #c0301c;
+	color: #fff;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+footer .icon {
+	position: relative;
+	left: 8px;
+	border: 1px solid;
+	width: 35px;
+	height: 35px;
+	margin-right: 15px;
+}
+
+footer .fa-twitter {
+	position: relative;
+	top: 5px;
+	left: 10px;
+	color: #fff;
+}
+
+footer .copyright {
 }

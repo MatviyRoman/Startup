@@ -1,4 +1,46 @@
-var token = '14e97068cd384280a282730ea9dcd777', // learn how to obtain it below
+$(".link a[href^='#']").click(function(e) {
+    e.preventDefault();
+    
+    var position = $($(this).attr("href")).offset().top;
+
+    $("body, html").animate({
+        scrollTop: position
+    }  /*speed*/  );
+});
+
+$(document).ready(function(){
+    $('.aboutUs .team1 img').mouseup(function(){
+        $('.aboutUs .socialIcon1').show();
+        $('.aboutUs .socialIcon2').hide();
+        $('.aboutUs .socialIcon3').hide();
+        $('.aboutUs .socialIcon4').hide();
+    })
+    $('.aboutUs .team2 img').hover(function(){
+        $('.aboutUs .socialIcon1').hide();
+        $('.aboutUs .socialIcon2').show();
+        $('.aboutUs .socialIcon3').hide();
+        $('.aboutUs .socialIcon4').hide();
+    })
+    $('.aboutUs .team3 img').hover(function(){
+        $('.aboutUs .socialIcon1').hide();
+        $('.aboutUs .socialIcon2').hide();
+        $('.aboutUs .socialIcon3').show();
+        $('.aboutUs .socialIcon4').hide();
+    })
+    $('.aboutUs .team4 img').hover(function(){
+        $('.aboutUs .socialIcon1').hide();
+        $('.aboutUs .socialIcon2').hide();
+        $('.aboutUs .socialIcon3').hide();
+        $('.aboutUs .socialIcon4').show();
+    })
+})
+    
+
+
+
+
+
+var token = '2500bb580a04415b915df338d1493e2c', // learn how to obtain it below
     userid = 22306463, // User ID - get it in source HTML of your Instagram profile or look at the next example :)
     num_photos = 4; // how much photos do you want to get
 
