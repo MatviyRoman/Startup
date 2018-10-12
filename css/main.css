@@ -190,9 +190,9 @@ header p.getStarted {
 	background: #c0301c;
 }
 
-.aboutUs a:hover {
+/*.aboutUs a:hover {
 	background: #c0301c;
-}
+}*/
 
 .aboutUs .fab {
 	top: 10px;
@@ -208,7 +208,7 @@ header p.getStarted {
 	text-align: center;
 }
 
-.aboutUs .team1 img:hover,
+/*.aboutUs .team1 img:hover,
 .aboutUs .team2 img:hover,
 .aboutUs .team3 img:hover,
 .aboutUs .team4 img:hover,
@@ -220,7 +220,7 @@ header p.getStarted {
 	opacity: 1;
 	z-index: 1;
 	cursor: pointer;
-} 
+} */
 
 .aboutUs .team1 .name,
 .aboutUs .team2 .name,

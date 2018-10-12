@@ -1,4 +1,5 @@
-$(".link a[href^='#']").click(function(e) {
+$(window).on('load', function(){
+    $(".link a[href^='#']").click(function(e) {
     e.preventDefault();
     
     var position = $($(this).attr("href")).offset().top;
@@ -6,34 +7,59 @@ $(".link a[href^='#']").click(function(e) {
     $("body, html").animate({
         scrollTop: position
     }  /*speed*/  );
+    });
 });
 
 $(document).ready(function(){
-    $('.aboutUs .team1 img').mouseup(function(){
+    $('.aboutUs .team1 img').hover(function(){
         $('.aboutUs .socialIcon1').show();
         $('.aboutUs .socialIcon2').hide();
         $('.aboutUs .socialIcon3').hide();
         $('.aboutUs .socialIcon4').hide();
-    })
+        $('.aboutUs .prev').css("background-color", "#8f8f8f");
+    }, function(){
+        $('.aboutUs .socialIcon1').hide();
+        $('.aboutUs .prev').css("background-color", "#c0301c");
+    });
     $('.aboutUs .team2 img').hover(function(){
         $('.aboutUs .socialIcon1').hide();
         $('.aboutUs .socialIcon2').show();
         $('.aboutUs .socialIcon3').hide();
         $('.aboutUs .socialIcon4').hide();
-    })
+    }, function(){
+        $('.aboutUs .socialIcon2').hide();
+    });
     $('.aboutUs .team3 img').hover(function(){
         $('.aboutUs .socialIcon1').hide();
         $('.aboutUs .socialIcon2').hide();
         $('.aboutUs .socialIcon3').show();
         $('.aboutUs .socialIcon4').hide();
-    })
+    }, function(){
+        $('.aboutUs .socialIcon3').hide();
+    });
     $('.aboutUs .team4 img').hover(function(){
         $('.aboutUs .socialIcon1').hide();
         $('.aboutUs .socialIcon2').hide();
         $('.aboutUs .socialIcon3').hide();
         $('.aboutUs .socialIcon4').show();
-    })
-})
+        $('.aboutUs .next').css("background-color", "#8f8f8f");
+    }, function(){
+        $('.aboutUs .socialIcon4').hide();
+        $('.aboutUs .next').css("background-color", "#c0301c");
+    });
+    $('.aboutUs .socialIcon1').hover(function(){
+        $('.aboutUs .socialIcon1').show();
+    });
+    $('.aboutUs .socialIcon2').hover(function(){
+        $('.aboutUs .socialIcon2').show();
+    });
+    $('.aboutUs .socialIcon3').hover(function(){
+        $('.aboutUs .socialIcon3').show();
+    });
+    $('.aboutUs .socialIcon4').hover(function(){
+        $('.aboutUs .socialIcon4').show();
+    });
+});
     
 
 
