@@ -39,6 +39,10 @@ header nav a:hover {
 	color: gray;
 }
 
+header nav .linkMenu {
+	display: none;
+}
+
 header h1 {
 	margin-top: 26%; /*260px;*/
 	margin-bottom: 3%;
@@ -60,6 +64,21 @@ header p.getStarted {
 	padding-bottom: 20px;
 	padding-left: 30px;
 	border: 3px solid #fff;
+	cursor: pointer;
+}
+
+header #getStarted {
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #000;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	border: 1px solid #fff;
 }
 
 .services {
@@ -133,8 +152,8 @@ header p.getStarted {
 }
 
 .aboutUs .prev {
-	position: absolute;
-	top: 100px;
+	position: relative;
+	top: -210px;
 	background: #c0301c;
 	width: 36px;
 	height: 38px;
@@ -143,13 +162,17 @@ header p.getStarted {
 }
 
 .aboutUs .next {
-	position: absolute;
-	top: 100px;
-	left: 234px;
+	position: relative;
+	top: -210px;
+	left: 220px;
 	background: #c0301c;
 	width: 36px;
 	height: 38px;
 	cursor: pointer;
+}
+
+.aboutUs .teamBg {
+	background: #000;
 }
 
 .aboutUs .fa-angle-right,
@@ -166,13 +189,11 @@ header p.getStarted {
 .aboutUs .socialIcon4 {
 	display: none;
 	position: absolute;
-	top: 45%;
+	top: 40%;
     left: 28%;
 }
 
 .aboutUs a {
-	/* width: 28px;
-	height: 28px; */
 	padding-top: 5px;
 	padding-bottom: 5px;
 	padding-left: 10px;
@@ -180,19 +201,19 @@ header p.getStarted {
 	margin-right: 3px;
 }
 
-/* .aboutUs a,
+.aboutUs a,
 .aboutUs a:hover,
 .aboutUs a:link {
 	text-decoration: none;
-} */
+} 
 
 .aboutUs a.active {
 	background: #c0301c;
 }
 
-/*.aboutUs a:hover {
+.aboutUs a:hover {
 	background: #c0301c;
-}*/
+}
 
 .aboutUs .fab {
 	top: 10px;
@@ -208,7 +229,7 @@ header p.getStarted {
 	text-align: center;
 }
 
-/*.aboutUs .team1 img:hover,
+.aboutUs .team1 img:hover,
 .aboutUs .team2 img:hover,
 .aboutUs .team3 img:hover,
 .aboutUs .team4 img:hover,
@@ -217,10 +238,10 @@ header p.getStarted {
 .aboutUs .team3 img:focus,
 .aboutUs .team4 img:focus {
 	background: #aaaaaa !important;
-	opacity: 1;
+	opacity: 0.8;
 	z-index: 1;
 	cursor: pointer;
-} */
+} 
 
 .aboutUs .team1 .name,
 .aboutUs .team2 .name,
@@ -243,6 +264,7 @@ header p.getStarted {
 .works {
 	color: #555555;
 	padding-top: 100px; /* 10%; */
+	text-align: center;
 }
 
 .works h2 {
@@ -251,8 +273,18 @@ header p.getStarted {
 }
 
 .works a {
+	color: #555555;
+	text-decoration: none;
 	padding-bottom: 70px;
 	padding-right: 30px;
+}
+
+.works a:hover {
+	color: #c0301c;
+}
+
+.works .active {
+	color: #c0301c;
 }
 
 .works .settings:not(.work7):not(.work8):not(.work9) {
@@ -265,8 +297,185 @@ header p.getStarted {
 	padding-bottom: 10%;
 }
 
+.works .capsula {
+	background: #c0301c;
+}
+
+.works img:hover {
+	opacity: 0.6;
+}
+
+.works .text {
+	display: none;
+	position: absolute;
+	text-transform: capitalize;
+	top: 100px;
+	color: #fff;
+}
+
+.works .text h2 {
+	font-family: 'Montserrat';
+	font-size: 18px;
+}
+
+.works .text p {
+	font-family: 'RobotoSlab';
+	font-size: 12px;
+}
+
+.works .text button {
+	border-color: #fff;
+	color: #c0301c;
+	background: #fff;
+	text-transform: uppercase;
+}
+
+.works .text button:hover {
+	background: #c0301c;
+	color: #fff;
+}
+
+.paralax .text {
+	position: absolute;
+	text-align: center;
+	margin-top: 60px;
+	color: #fff;
+	z-index: 1;
+}
+
+.paralax .bg {
+	    width: 1440px;
+	}
+
+.paralax h2 {
+	font-size: 30px;
+	font-family: 'RobotoSlab';
+	z-index: 1;
+	margin-bottom: 50px;
+}
+
+.paralax button {
+	font-size: 18px;
+	font-family: 'RobotoSlab';
+	text-transform: uppercase;
+	padding-top: 15px;
+	padding-right: 25px;
+	padding-bottom: 15px;
+	padding-left: 25px;
+	border: 3px solid #fff;
+	color: #fff;
+	opacity: 0.7;
+}
+
+.paralax button:hover {
+	border: 3px solid #fff;
+	background: #c0301c;
+}
+
+.paralax .bg {
+	background: #c0301c !important;
+}
+
+.paralax img {
+	opacity: 0.4;
+}
+
+.paralax .modal {
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #c0301c;
+	text-align: center;
+	padding-top: 50px;
+	color: #fff;
+	text-transform: capitalize;
+	font-size: 30px;
+	border-radius: 25px;
+}
+
+.paralax .modal button {
+	margin-top: 60px;
+	margin-right: 30px;
+}
+
 .blog {
 	padding-top: 90px;
+	padding-bottom: 100px;
+}
+
+.blog h2 {
+	text-transform: uppercase;
+	font-size: 20px;
+	font-family: 'Montserrat';
+}
+
+.blog p {
+	margin-bottom: 70px;
+	font-size: 16px;
+	font-family: 'RobotoSlab';
+}
+
+.blog .datePost {
+	width: 75px;
+	height: 75px;
+	border: 2px solid #555555;
+	margin-left: 20px;
+}
+
+.blog .datePost p {
+	position: relative;
+	top: 15%;
+	left: 3%;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	color: #777777;
+}
+
+.blog .text {
+	position: absolute;
+	top: 10px;
+	left: 130px;
+}
+
+.blog .text h2 {
+	font-size: 16px;
+	font-family: 'Montserrat';
+	color: #555555;
+}
+
+.blog .text i {
+	font-size: 13px;
+	font-family: 'RobotoSlab';
+	color: #777777;
+}
+
+.blog .description {
+	margin-left: 20px;
+	padding-top: 25px;
+	font-size: 14px;
+	font-family: 'RobotoSlab';
+	color: #555555;
+}
+
+.blog .description span {
+	position: absolute;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: 'RobotoSlab';
+	text-transform: uppercase;
+	padding-top: 35px;
+	color: #777777;
+	cursor: pointer;
+}
+
+.blog .horizontal {
+	border: 1px solid #dddddd;
+	margin-top: 38px;
+	margin-bottom: 38px;
 }
 
 .clients {
@@ -316,25 +525,57 @@ header p.getStarted {
 	margin-bottom: 70px;
 }
 
-.contact .fa {
-	font-size: 25px;
-	margin-right: 15px;
+.contact .fas,
+.contact .far {
+	font-size: 15px;
+	margin-right: 10px;
 }
 
 .contact h4.adress {
 	text-transform: uppercase;
+	font-size: 14px;
+	font-family: 'Montserrat';
+	color: #555555;
 }
 
 .contact p.adress {
 	position: relative;
 	left: 30px;
+	font-size: 12px;
+	font-family: 'RobotoSlab';
+	color: #555555;
 }
 
-.contact input[type=text] {
-	border: 10px solid fff;
+.contact input {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 30px;
+	border: 1px solid #555555;
+	text-transform: uppercase;
+}
+
+.contact input.message {
+	padding-bottom: 75px;
+}
+
+.contact input:focus {
+	border: 1px solid #c0301c;
+	box-shadow: 3px #c0301c;
+}
+
+.contact button {
+	height: 45px;
+	background: #fff;
+	border: 1px solid #555555;
+	color: #808080;
+	text-transform: uppercase;
+}
+
+/*.contact input[type=text] {
+	border: 10px solid #000;
 	margin-right: 30px;
 	margin-bottom: 22px;
-}
+}*/
 
 footer {
 	background: #c0301c;
@@ -360,4 +601,405 @@ footer .fa-twitter {
 }
 
 footer .copyright {
+}
+
+
+@media screen and (max-width: 1024px) {
+	
+	header h1 {
+    	margin-top: 10%;
+    	font-size: 25px;
+	}
+
+	header p.getStarted {
+    	margin-bottom: 10%;
+	}
+
+	header #getStarted {
+	    top: 20%;
+	}
+
+	.paralax .bg {
+		    width: 1024px;
+		}
+
+	.paralax h2 {
+	    font-size: 25px;
+	    margin-bottom: 10px;
+	}
+
+	.aboutUs .prev {
+	    top: -190px;
+	}
+
+  	.aboutUs .next {
+	    top: -190px;
+	    left: 174px;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	
+	header h1 {
+	    font-size: 20px;
+	}
+
+	header p.getStarted {
+	    font-size: 10px;
+	    margin-bottom: 15%;
+	    padding-top: 10px;
+	    padding-right: 20px;
+	    padding-bottom: 10px;
+	    padding-left: 20px;
+	}
+
+	.services .elipse-1,
+	.services .elipse-2,
+	.services .elipse-3 {
+	    height: 70px;
+    	width: 70px;
+	}
+
+	.services .fa {
+	    font-size: 40px;
+	}
+
+	.services h3 {
+	    font-size: 20px;
+   }
+
+	 .aboutUs .prev {
+	    top: -155px;
+	    width: 25px;
+	    height: 25px;
+    }  
+
+	.aboutUs .next {
+	    top: -155px;
+	    left: 125px;
+	    width: 25px;
+	    height: 25px;
+	}
+
+	.aboutUs .fa-angle-right, .aboutUs .fa-angle-left {
+	    top: 0;
+	    font-size: 15px;
+	}
+
+	.paralax .bg {
+	    width: 768px;
+	}
+
+	.paralax h2 {
+    	font-size: 20px;
+	}
+
+	.paralax button {
+	    font-size: 10px;
+	    padding-top: 10px;
+	    padding-right: 20px;
+	    padding-bottom: 10px;
+	    padding-left: 20px;
+	}
+
+	.clients img {
+		width: 120px;
+	}
+
+	.clients i {
+	    font-size: 11px;
+	    padding-top: 20px;
+	    padding-bottom: 20px;
+	}
+
+}
+
+@media screen and (max-width: 425px) {
+
+	header h1 {
+	    font-size: 15px;
+	}
+
+	header .link {
+		display: none;
+		position: absolute;
+		top: 37px;
+    	left: 355px;
+    	width: 40px;
+	}
+
+	header nav .linkMenu {
+		display: block;
+		position: relative;
+    	left: -15px;
+    	cursor: pointer;
+	}
+
+	.services p {
+	    font-size: 13px;
+	}
+
+	.services .elipse-1,
+	.services .elipse-2,
+	.services .elipse-3 {
+    	left: 42%;
+	}
+
+	.services .elipse-1,
+	.services .elipse-2,
+	.services .elipse-3 {
+	    height: 60px;
+	    width: 60px;
+	}
+
+	.services .fa {
+	    font-size: 30px;
+	    top: 24%;
+	}
+
+	.aboutUs p {
+		font-size: 10px;
+	}
+
+	.aboutUs .teamBg {
+	    width: 150px;
+	    left: 120px;
+	    position: relative;
+	}
+
+	.aboutUs .prev {
+	    left: 120px;
+	}
+
+	.aboutUs .next {
+	    top: -155px;
+	    left: 245px;
+	}
+
+	.aboutUs .team1,
+	.aboutUs .team2,
+	.aboutUs .team3,
+	.aboutUs .team4 {
+	    padding-bottom: 5px;
+	   	border-top: 1px solid gray;
+	}
+
+	.works a {
+	    padding-right: 10px;
+	}
+
+	.works .capsula {
+		position: relative;
+    	left: 40px;
+	    width: 300px;
+	}
+
+	.paralax .bg {
+	    width: 425px;
+	}
+
+	.paralax h2 {
+		position: relative;
+		top: -30px;
+	    font-size: 12px;
+	}
+
+	.paralax button {
+		position: relative;
+		top: -30px;
+	    font-size: 5px;
+	    padding-top: 5px;
+	    padding-right: 10px;
+	    padding-bottom: 5px;
+	    padding-left: 10px;
+	}
+
+	.blog .datePost {
+	    margin-top: 15px;
+	}
+
+	.blog .horizontal {
+	    margin-top: 65px;
+	}
+
+	.contact .contactLeft {
+		position: relative;
+		left: 100px;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	header h1 {
+	    font-size: 13px;
+	}
+
+	header .link {
+	    left: 305px;
+	}
+
+	header p.getStarted {
+	    font-size: 5px;
+	    margin-bottom: 10%;
+	    padding-top: 5px;
+	    padding-right: 10px;
+	    padding-bottom: 5px;
+	    padding-left: 10px;
+	}
+
+	header p {
+	    margin-bottom: 5%;
+	    font-size: 5px;
+	}
+
+	.services .elipse-1,
+	.services .elipse-2,
+	.services .elipse-3 {
+	    left: 41%;
+	}
+
+	.aboutUs .teamBg {
+	    left: 99px;
+	}
+
+	.aboutUs .prev {
+	    left: 100px;
+	}
+
+	.aboutUs .next {
+	    left: 223px;
+	}
+
+	.works {
+	    padding-top: 50px;
+	}
+
+	.works .capsula {
+	    left: 20px;
+	}
+
+	.paralax .bg {
+	    width: 375px;
+	}
+
+	.paralax h2 {
+	    top: -40px;
+	}
+
+	.paralax button {
+	    top: -45px;
+	}
+
+	.blog p {
+	    font-size: 13px;
+	    margin-bottom: 35px;
+	}
+
+	.clients i {
+	    position: relative;
+	    left: 5px;
+	}
+
+	.clients {
+	    padding-top: 50px;
+	    padding-bottom: 50px;
+	}
+
+	.contact button {
+	    height: 45px;
+	    background: #fff;
+	    border: 1px solid #555555;
+	    color: #808080;
+	    text-transform: uppercase;
+	    font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+
+	.line {
+	    margin-top: 10px;
+	    margin-bottom: 10px;
+	}
+
+	header .link {
+	    left: 250px;
+	}
+
+	.services .elipse-1,
+	.services .elipse-2,
+	.services .elipse-3 {
+	    left: 39%;
+	}
+
+	.aboutUs h2 {
+	    font-size: 15px;
+	}
+
+	.aboutUs .teamBg {
+	    left: 70px;
+	}
+
+	.aboutUs .prev {
+	    left: 70px;
+	}
+
+	.aboutUs .next {
+	    left: 195px;
+	}
+
+	.works a {
+	    padding-right: 6px;
+	}
+
+	.works .capsula {
+	    left: 5px;
+	}
+
+	.works .text {
+	    top: 50px;
+	    left: 0;
+	}
+
+	.paralax .row {
+	    width: 320px;
+	}
+
+	.paralax .bg {
+	    width: 320px;
+	}
+
+	.paralax button {
+	    top: -50px;
+	}
+
+	.blog img {
+		height: 200px;
+	}
+
+	.blog .text h2 {
+	    font-size: 13px;
+	}
+
+	.blog .description {
+	    padding-top: 40px;
+	}
+
+	.contact h2 {
+	    font-size: 20px;
+	}
+
+	.contact input {
+	    padding-top: 10px;
+	    padding-bottom: 10px;
+	    margin-bottom: 10px;
+	}
+
+	.contact .contactLeft {
+	    left: 55px;
+	}
+
+	.contact button {
+	    font-size: 10px;
+	}
 }
