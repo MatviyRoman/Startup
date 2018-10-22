@@ -1,3 +1,30 @@
+// ScrollUp To Home, Show & Hide Home
+$(function(){
+    $(".scrollUp a[href^='#']").click(function(e) {
+    e.preventDefault();
+    
+    var position = $($(this).attr("href")).offset().top;
+
+    $("body, html").animate({
+        scrollTop: position
+    }  /*speed*/  );
+    });
+    $('#home, #home .scrollUp').hover(function(){
+        $('.scrollUp').hide();
+    }, function(){
+        $('.scrollUp').show();
+    });
+});
+
+
+/*trigger scrollUp*/
+$(function(){
+    $('header').trigger('hover');
+    $('header').trigger('mouseenter');
+    $('header').trigger('mouseover');
+});
+
+
 /*Animate To Animate*/
 $(window).on('load', function(){
     $(".link a[href^='#']").click(function(e) {

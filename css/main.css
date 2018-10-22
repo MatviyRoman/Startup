@@ -3,6 +3,32 @@
 	margin: 0;
 }
 
+.scrollUp {
+	display: none;
+	position: fixed;
+	height: 60px;
+	width: 60px;
+	border: 1px solid gray;
+	border-radius: 100%;
+	top: 85%;
+	left: 93%;
+	background-color: gray;
+	opacity: 0.4;
+	z-index: 999;
+}
+
+.scrollUp:hover {
+	opacity: 0.8;
+}
+
+.scrollUp .fas {
+	position: relative;
+	top: 30%;
+	left: 35%;
+	color: #000;
+	opacity: 1 !important;
+}
+
 .line {
 	border-top: 2px solid;
 	width: 50px;
@@ -604,8 +630,13 @@ footer .copyright {
 }
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (min-width: 769px) and (orientation:portrait) {
 	
+	.scrollUp {
+	    top: 90%;
+	    left: 90%;
+	}
+
 	header h1 {
     	margin-top: 10%;
     	font-size: 25px;
@@ -639,7 +670,7 @@ footer .copyright {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 426px) and (orientation:portrait) {
 	
 	header h1 {
 	    font-size: 20px;
@@ -715,7 +746,12 @@ footer .copyright {
 
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 425px) and (min-width: 376px) and (orientation:portrait) {
+
+	.scrollUp {
+	    top: 88%;
+	    left: 66%;
+	}
 
 	header h1 {
 	    font-size: 15px;
@@ -829,7 +865,13 @@ footer .copyright {
 	}
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 375px) and (min-width: 321px) and (orientation:portrait) {
+
+	.scrollUp {
+	    top: 70%;
+	    left: 66%;
+	}
+
 	header h1 {
 	    font-size: 13px;
 	}
@@ -916,6 +958,11 @@ footer .copyright {
 }
 
 @media screen and (max-width: 320px) {
+
+	.scrollUp {
+	    top: 69%;
+	    left: 62%;
+	}
 
 	.line {
 	    margin-top: 10px;

@@ -1,0 +1,466 @@
+*************************************
+* START TextExport for Home-восстановлено-восстановлено-восстановлено.psd
+*************************************
+
+LayerPath: /Startup PSD/Footer/
+LayerName: © 2015 Startup, Designed by ShapedTheme
+
+© 2015 Startup, Designed by ShapedTheme
+
+*************************************
+
+LayerPath: /Startup PSD/Clients/
+LayerName: Hvaing placeat facere possimus, omnis voluptas assumenda est, o
+
+Hvaing placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerumФ
+
+John Doe, Google Inc.
+
+*************************************
+
+LayerPath: /Startup PSD/Contact/Contact form/Address/
+LayerName: 312, 7th Ave, New York NY 101200, United States of America  
+
+312, 7th Ave, New York
+NY 101200, United States of America
+ 
+
+*************************************
+
+LayerPath: /Startup PSD/Contact/Contact form/Address/
+LayerName: Address
+
+Address
+
+*************************************
+
+LayerPath: /Startup PSD/Contact/Contact form/pjone/
+LayerName: +65 0052 300, +65 88251 210 +88 01723 511 340  
+
++65 0052 300, +65 88251 210
++88 01723 511 340
+ 
+
+*************************************
+
+LayerPath: /Startup PSD/Contact/Contact form/pjone/
+LayerName: Hotline (24x7)
+
+Hotline (24x7)
+
+*************************************
+
+LayerPath: /Startup PSD/Contact/Contact form/email address/
+LayerName: shapedtheme@gmail.com khalilkode@gmail.com  
+
+shapedtheme@gmail.com
+khalilkode@gmail.com
+ 
+
+*************************************
+
+LayerPath: /Startup PSD/Contact/Contact form/email address/
+LayerName: E-mail
+
+E-mail
+
+*************************************
+
+LayerPath: /Startup PSD/Contact/Contact form/On click Your name/
+LayerName: |
+
+|
+
+*************************************
+
+LayerPath: /Startup PSD/Contact/Contact form/email/
+LayerName: Your E-mail
+
+Your E-mail
+
+*************************************
+
+LayerPath: /Startup PSD/Contact/Contact form/Subject/
+LayerName: Your subject
+
+Your subject
+
+*************************************
+
+LayerPath: /Startup PSD/Contact/Contact form/Com name/
+LayerName: Company name
+
+Company name
+
+*************************************
+
+LayerPath: /Startup PSD/Contact/Contact form/Send btn/
+LayerName: * WeТll contact you as as possible. We donТt reply on Monday.
+
+* WeТll contact you as as possible. We donТt reply on Monday.
+
+*************************************
+
+LayerPath: /Startup PSD/Contact/Contact form/Send btn/Send/
+LayerName: Send message
+
+Send message
+
+*************************************
+
+LayerPath: /Startup PSD/Contact/Contact form/Message/
+LayerName: Write your message
+
+Write your message
+
+*************************************
+
+LayerPath: /Startup PSD/Contact/Section title & Subtitle copy/
+LayerName: Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet
+
+*************************************
+
+LayerPath: /Startup PSD/Contact/Section title & Subtitle copy/
+LayerName: Get in touch
+
+Get in touch
+
+*************************************
+
+LayerPath: /Startup PSD/Call to action parallax/Blog/Blog post-2/Content/on hover/
+LayerName: Read more
+
+Read more
+
+*************************************
+
+LayerPath: /Startup PSD/Call to action parallax/Blog/Blog post-2/Content/
+LayerName: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod teduntlabore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et erebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit am Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidulabore et dolore aliquyam erat, sed diam 
+
+*************************************
+
+LayerPath: /Startup PSD/Call to action parallax/Blog/Blog post-2/Date/
+LayerName: 18 Oct
+
+18
+Oct
+
+*************************************
+
+LayerPath: /Startup PSD/Call to action parallax/Blog/Blog post-2/on hover Blog title/
+LayerName: Startup ideas needs to be funded 
+
+Startup ideas needs to be funded 
+
+*************************************
+
+LayerPath: /Startup PSD/Call to action parallax/Blog/Blog post-2/on hover Blog title/
+LayerName: By Khalil Uddin in Development 
+
+By Khalil Uddin in Development 
+
+*************************************
+
+LayerPath: /Startup PSD/Call to action parallax/Blog/Blog Post-2/Content/
+LayerName: Read more
+
+Read more
+
+*************************************
+
+LayerPath: /Startup PSD/Call to action parallax/Blog/Blog Post-2/Content/
+LayerName: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed di
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod teduntlabore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et erebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor idunt ut labore et dolore aliquyam 
+
+*************************************
+
+LayerPath: /Startup PSD/Call to action parallax/Blog/Blog Post-2/Date/
+LayerName: 18 Oct
+
+18
+Oct
+
+*************************************
+
+LayerPath: /Startup PSD/Call to action parallax/Blog/Blog Post-2/Blog title/
+LayerName: User Interface Designing Elements 
+
+User Interface Designing Elements 
+
+*************************************
+
+LayerPath: /Startup PSD/Call to action parallax/Blog/Blog Post-2/Blog title/
+LayerName: By Khalil Uddin in Development 
+
+By Khalil Uddin in Development 
+
+*************************************
+
+LayerPath: /Startup PSD/Call to action parallax/Blog/Section title & Subtitle/
+LayerName: Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet
+
+*************************************
+
+LayerPath: /Startup PSD/Call to action parallax/Blog/Section title & Subtitle/
+LayerName: Recent blog posts
+
+Recent blog posts
+
+*************************************
+
+LayerPath: /Startup PSD/Call to action parallax/Contact btn/
+LayerName: Get in Touch
+
+Get in Touch
+
+*************************************
+
+LayerPath: /Startup PSD/Call to action parallax/
+LayerName: Do you like OUR WORK so far? Let's talk about YOUR PROJECT!
+
+Do you like OUR WORK so far?
+Let's talk about YOUR PROJECT!
+
+*************************************
+
+LayerPath: /Startup PSD/Works/work level-1/Single work-1/Work/Work Caption/View btn/Group 1/
+LayerName: View
+
+View
+
+*************************************
+
+LayerPath: /Startup PSD/Works/work level-1/Single work-1/Work/Work Caption/
+LayerName: Hair Dresser
+
+Hair Dresser
+
+*************************************
+
+LayerPath: /Startup PSD/Works/work level-1/Single work-1/Work/Work Caption/
+LayerName: Branding
+
+Branding
+
+*************************************
+
+LayerPath: /Startup PSD/Works/work level-1/Single work-1 copy/Work/Work Caption/View btn/Group 1/
+LayerName: View
+
+View
+
+*************************************
+
+LayerPath: /Startup PSD/Works/work level-1/Single work-1 copy/Work/Work Caption/
+LayerName: Hair Dresser
+
+Hair Dresser
+
+*************************************
+
+LayerPath: /Startup PSD/Works/work level-1/Single work-1 copy/Work/Work Caption/
+LayerName: Branding
+
+Branding
+
+*************************************
+
+LayerPath: /Startup PSD/Works/work level-1/Single work-1 copy 2/Work/Work Caption/View btn/Group 1/
+LayerName: View
+
+View
+
+*************************************
+
+LayerPath: /Startup PSD/Works/work level-1/Single work-1 copy 2/Work/Work Caption/
+LayerName: Hair Dresser
+
+Hair Dresser
+
+*************************************
+
+LayerPath: /Startup PSD/Works/work level-1/Single work-1 copy 2/Work/Work Caption/
+LayerName: Branding
+
+Branding
+
+*************************************
+
+LayerPath: /Startup PSD/Works/work level-1 copy/Single work-1/Work/Work Caption/View btn/Group 1/
+LayerName: View
+
+View
+
+*************************************
+
+LayerPath: /Startup PSD/Works/work level-1 copy/Single work-1/Work/Work Caption/
+LayerName: Hair Dresser
+
+Hair Dresser
+
+*************************************
+
+LayerPath: /Startup PSD/Works/work level-1 copy/Single work-1/Work/Work Caption/
+LayerName: Branding
+
+Branding
+
+*************************************
+
+LayerPath: /Startup PSD/Works/work level-1 copy/Single work-1 copy/Work/Work Caption/View btn/Group 1/
+LayerName: View
+
+View
+
+*************************************
+
+LayerPath: /Startup PSD/Works/work level-1 copy/Single work-1 copy/Work/Work Caption/
+LayerName: Hair Dresser
+
+Hair Dresser
+
+*************************************
+
+LayerPath: /Startup PSD/Works/work level-1 copy/Single work-1 copy/Work/Work Caption/
+LayerName: Branding
+
+Branding
+
+*************************************
+
+LayerPath: /Startup PSD/Works/Section title & Subtitle/
+LayerName: All      Branding       Design       Development       Strategy
+
+All      Branding       Design       Development       Strategy
+
+*************************************
+
+LayerPath: /Startup PSD/Works/Section title & Subtitle/
+LayerName: Latest Works
+
+Latest Works
+
+*************************************
+
+LayerPath: /Startup PSD/About Us/Team Members/Member-1 copy/Name & Post/
+LayerName: Rubel Miah
+
+Rubel Miah
+
+*************************************
+
+LayerPath: /Startup PSD/About Us/Team Members/Member-1 copy/Name & Post/
+LayerName: Lead WordPress Developer
+
+Lead WordPress Developer
+
+*************************************
+
+LayerPath: /Startup PSD/About Us/Team Members/Member-1 copy 2/Name & Post/
+LayerName: Shamim Mia
+
+Shamim Mia
+
+*************************************
+
+LayerPath: /Startup PSD/About Us/Team Members/Member-1 copy 2/Name & Post/
+LayerName: Sr. Web Developer
+
+Sr. Web Developer
+
+*************************************
+
+LayerPath: /Startup PSD/Services/Single Services/On hover Service-1 /Service content/
+LayerName: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minim
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. Lorem ipsum.
+
+*************************************
+
+LayerPath: /Startup PSD/Services/Single Services/On hover Service-1 /Service content/
+LayerName: Clean Typography
+
+Clean Typography
+
+*************************************
+
+LayerPath: /Startup PSD/Services/Single Services/Service -2/Service content/
+LayerName: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minim
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. Lorem ipsum.
+
+*************************************
+
+LayerPath: /Startup PSD/Services/Single Services/Service -2/Service content/
+LayerName: Rock Solid Code
+
+Rock Solid Code
+
+*************************************
+
+LayerPath: /Startup PSD/Services/Single Services/Service -3/Service content/
+LayerName: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minim
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. Lorem ipsum.
+
+*************************************
+
+LayerPath: /Startup PSD/Services/Single Services/Service -3/Service content/
+LayerName: Expert Support
+
+Expert Support
+
+*************************************
+
+LayerPath: /Startup PSD/Services/Section title & Subtitle/
+LayerName: We offer ipsum dolor sit amet, consetetur sadipscing elitr amet
+
+We offer ipsum dolor sit amet, consetetur sadipscing elitr amet
+
+*************************************
+
+LayerPath: /Startup PSD/Services/Section title & Subtitle/
+LayerName: Services
+
+Services
+
+*************************************
+
+LayerPath: /Startup PSD/Home Section/Captions/Get started btn/
+LayerName: Get Started
+
+Get Started
+
+*************************************
+
+LayerPath: /Startup PSD/Home Section/Captions/
+LayerName: Welcome to STARTUP  Your Favourite Creative Agency Template
+
+Welcome to STARTUP
+
+Your Favourite Creative Agency Template
+
+*************************************
+
+LayerPath: /Startup PSD/Home Section/Header Navigation/Logo/
+LayerName: Startup
+
+Startup
+
+*************************************
+
+LayerPath: /Startup PSD/Home Section/Header Navigation/Nav/
+LayerName: Home        Services        About        Works        Blog     
+
+Home        Services        About        Works        Blog        Clients        Contact
+
+*************************************
+* FINISHED TextExport for Home-восстановлено-восстановлено-восстановлено.psd
+*************************************
