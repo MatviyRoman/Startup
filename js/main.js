@@ -486,7 +486,7 @@ var setInt = function(){
     })
 }
 
-setInterval(setInt, 1000);
+// setInterval(setInt, 1000);
 setTimeout(setInt, 1000);
 
 
